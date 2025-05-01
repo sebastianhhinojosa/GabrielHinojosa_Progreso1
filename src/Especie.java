@@ -12,13 +12,13 @@ public class Especie {
     private int cantPorEspecie;
     private int ventasPorEspecie;
 
-    public Especie(String nombre, Categoria claseAnimal, int VidaPromedio, int precio, int cantPorEspecie, int ventasPorEspecie) {
+    public Especie(String nombre, Categoria claseAnimal, int VidaPromedio, int precio, int cantPorEspecie) {
         this.nombre = nombre;
         this.claseAnimal = claseAnimal;
         this.vidaPromedioMaxima = VidaPromedio;
         this.precio = precio;
         this.cantPorEspecie = cantPorEspecie;
-        this.ventasPorEspecie = ventasPorEspecie;
+        this.ventasPorEspecie = 0;
     }
 
     public String getNombre(){

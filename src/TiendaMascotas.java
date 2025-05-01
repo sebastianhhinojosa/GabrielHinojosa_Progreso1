@@ -28,4 +28,7 @@ public class TiendaMascotas {
         return especie4;
     }
 
+    public void venderEspecie(Especie especie){
+        if (especie.)
+    }
 }

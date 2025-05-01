@@ -29,6 +29,6 @@ public class TiendaMascotas {
     }
 
     public void venderEspecie(Especie especie){
-        if (especie.)
+        if (especie.cantPorEspecie)
     }
 }
